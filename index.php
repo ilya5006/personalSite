@@ -6,25 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Персональный сайт</title>
     <link rel="stylesheet" href="./css/index.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <script src="./js/script.js" defer></script>
 </head>
 <body>
     <header>
-        <button id="main">ГЛАВНАЯ</button>
-        <button id="skills">НАВЫКИ</button>
-        <button id="portfolio">ПОРТФОЛИО</button>
-        <button id="contacts">КОНТАКТЫ</button>
+        <button id="main_nav" class="page_nav chose_page">ГЛАВНАЯ</button>
+        <button id="skills_nav" class="page_nav">НАВЫКИ</button>
+        <button id="portfolio_nav" class="page_nav">ПОРТФОЛИО</button>
+        <button id="contacts_nav" class="page_nav">КОНТАКТЫ</button>
     </header>
     <div id="wrapper">
-
     <?php 
         require_once './main.php';
         require_once './skills.php';
         require_once './portfolio.php';
         require_once './contacts.php';
     ?>
-
     </div>
 </body>
 </html>
