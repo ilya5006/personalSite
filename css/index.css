@@ -6,7 +6,12 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body, .current_page
+a
+{
+    text-decoration: none;
+}
+
+body
 {
     background-color: #1E071D;
 }
@@ -47,5 +52,6 @@ header
 
 .current_page
 {
+    background-color: #1E071D;
     color: #F70AF0;
 }
