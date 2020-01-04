@@ -6,3 +6,46 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body, .current_page
+{
+    background-color: #1E071D;
+}
+
+.hide_page
+{
+    display: none;
+}
+
+header
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page_nav
+{
+    width: 25%;
+    height: 100px;
+
+    font-size: 20px;
+
+    border: 0px;
+    background-color: black;
+    color: #F2ECF2;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+.page_nav:hover
+{
+    transition: 0.5s;
+    
+    font-size: 50px;
+}
+
+.current_page
+{
+    color: #F70AF0;
+}

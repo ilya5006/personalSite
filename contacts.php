@@ -1,3 +1,3 @@
-<div id="contacts_page" style="display: none;">
+<div id="contacts_page" class="hide_page">
     
 </div>

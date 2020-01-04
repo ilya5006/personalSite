@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <button id="main_nav" class="page_nav chose_page">ГЛАВНАЯ</button>
+        <button id="main_nav" class="page_nav current_page">ГЛАВНАЯ</button>
         <button id="skills_nav" class="page_nav">НАВЫКИ</button>
         <button id="portfolio_nav" class="page_nav">ПОРТФОЛИО</button>
         <button id="contacts_nav" class="page_nav">КОНТАКТЫ</button>
