@@ -1,0 +1,42 @@
+.case
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.case img
+{
+    width: 650px;
+    height: 400px;
+}
+
+.text_info
+{
+    margin-left: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    color: #f2ecdb;
+}
+
+.text_info h2
+{
+    font-size: 50px;
+}
+
+.text_info p
+{
+    font-size: 30px;
+}
+
+hr
+{
+    height: 5px;
+    background-color: #f2ecdb;
+
+    margin-top: 40px;
+}

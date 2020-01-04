@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <script src="./js/script.js" defer></script>
 </head>
