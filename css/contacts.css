@@ -1,0 +1,14 @@
+#contacts
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: #F2ECF2;
+
+    font-size: 60px;
+
+    height: 100%;
+    width: 100%;
+}

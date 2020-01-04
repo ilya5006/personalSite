@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/skills.css">
     <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="./css/contacts.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <script src="./js/script.js" defer></script>
 </head>
@@ -21,10 +22,10 @@
     </header>
     <div id="wrapper">
     <?php 
-        require_once './main.php';
-        require_once './skills.php';
-        require_once './portfolio.php';
-        require_once './contacts.php';
+        require_once './main.html';
+        require_once './skills.html';
+        require_once './portfolio.html';
+        require_once './contacts.html';
     ?>
     </div>
 </body>
