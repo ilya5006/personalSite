@@ -11,9 +11,25 @@ a
     text-decoration: none;
 }
 
+html
+{
+    height: 100%;
+}
+
 body
 {
+    min-height: 100%;
     background-color: #1E071D;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#wrapper
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
 }
 
 .hide_page
@@ -54,4 +70,10 @@ header
 {
     background-color: #1E071D;
     color: #F70AF0;
+}
+
+
+#main_page, #skills_page, #contacts_page
+{
+    margin: 50px 0;
 }
