@@ -31,6 +31,19 @@
 .text_info p
 {
     font-size: 30px;
+    display: inline;
+}
+
+.text_info a
+{
+    color: #ba9225;
+    font-size: 25px;
+    transition: 0.5s all;
+}
+
+.text_info a:hover
+{
+    color: #ffbb00;
 }
 
 hr
